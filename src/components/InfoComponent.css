@@ -1,0 +1,20 @@
+.weather-info-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.weather-info-img {
+    width: 55px;
+    height: 55px;
+}
+
+.weather-info-label {
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}

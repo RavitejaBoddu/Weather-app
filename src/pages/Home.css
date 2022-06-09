@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --ion-color-clouds: #34aafc;
+    --ion-color-clouds-rgb: 52, 170, 252;
+    --ion-color-clouds-contrast: #000000;
+    --ion-color-clouds-contrast-rgb: 0, 0, 0;
+    --ion-color-clouds-shade: #2e96de;
+    --ion-color-clouds-tint: #48b3fc;
+}
+
+.ion-color-clouds {
+    --ion-color-base: var(--ion-color-clouds);
+    --ion-color-base-rgb: var(--ion-color-clouds-rgb);
+    --ion-color-contrast: var(--ion-color-clouds-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-clouds-contrast-rgb);
+    --ion-color-shade: var(--ion-color-clouds-shade);
+    --ion-color-tint: var(--ion-color-clouds-tint);
+}
+
+:root {
+    --ion-color-night: #303131;
+    --ion-color-night-rgb: 48, 49, 49;
+    --ion-color-night-contrast: #ffffff;
+    --ion-color-night-contrast-rgb: 255, 255, 255;
+    --ion-color-night-shade: #2a2b2b;
+    --ion-color-night-tint: #454646;
+}
+
+.ion-color-night {
+    --ion-color-base: var(--ion-color-night);
+    --ion-color-base-rgb: var(--ion-color-night-rgb);
+    --ion-color-contrast: var(--ion-color-night-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-night-contrast-rgb);
+    --ion-color-shade: var(--ion-color-night-shade);
+    --ion-color-tint: var(--ion-color-night-tint);
+}
+
+.body1 {
+    font-family: "Montserrat", sans-serif;
+    --background: url(../../public/assets/images/wall.jpg) no-repeat center/cover fixed;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: transparent;
+    margin-bottom: 45px;
+}
+.tool-img{
+    color: white;
+}
+
+.main-title {
+    padding-top: 9px;
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+
+.image {
+    width: 170px;
+    height: 170px;
+}
+
+.search-card{
+    top: 13%;
+    padding: 30px 0;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background: transparent;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.904);
+    
+}
+.main-input{
+    background-color: #ebf7fc;
+    color: #000000;
+    width:auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin:0 20px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-button{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    width: 150px;
+}

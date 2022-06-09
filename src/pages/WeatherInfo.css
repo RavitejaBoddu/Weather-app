@@ -1,0 +1,67 @@
+.body2 {
+    font-family: "Montserrat", sans-serif;
+    --background: url(../../public/assets/images/wall.jpg) no-repeat center/cover fixed;
+}
+
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: transparent;
+
+}
+.main-title{
+    padding-bottom: 6px;
+}
+
+.main-img{
+    padding-bottom: 6px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.temp-display {
+    font-size: 25px;
+    color: rgb(0, 0, 0)
+}
+
+.temp-display span {
+
+    padding-left: 10px;
+    font-size: 45px;
+}
+
+.weather-info {
+    height: 350px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.weather-info-row {
+    padding: 18px 0;
+}
+
+.city {
+    display: block;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.info {
+    display: block;
+    text-align: left;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: black;
+}
